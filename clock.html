@@ -1,13 +1,30 @@
 <!DOCTYPE html>
 <html>
-<body>
+<head>
 
+<style type="text/css">
+
+.centre{
+
+	padding-left: 42%;
+	padding-top: 16%;
+	background-color: #66CCFF;
+}
+	
+
+</style>
+
+<body  class="centre">
+
+
+<div>
 <p>The Current time is:</p>
 <p id="example"></p>
 
 
 <input type="text" name="description"> <br>
 
+</div>
 
 <script>
 var display=setInterval(function(){Time()},0);
@@ -23,4 +40,5 @@ document.getElementById("example").innerHTML=time;
 
 
 </body>
+</head>
 </html>
